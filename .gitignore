@@ -3,3 +3,4 @@ test.csv
 train.csv
 predict.csv
 venv/
+catboost_info/
