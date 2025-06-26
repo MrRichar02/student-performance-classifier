@@ -12,7 +12,7 @@
     {
       devShells.x86_64-linux.default = pkgs.mkShell {
         packages = [
-          pkgs.python311
+          pkgs.python310
         ];
 
         env.LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
